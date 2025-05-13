@@ -1,0 +1,2952 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_дочь -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_дочь">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_сына -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_сына">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка_и_дедушка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка_и_дедушка">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_дочь"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_сына"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка_и_дедушка_мамы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка_и_дедушка_мамы">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка_и_дедушка_папы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка_и_дедушка_папы">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат_и_сестра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат_и_сестра">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Братья_и_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Братья_и_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внуки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внуки">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внуки_мои -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внуки_мои">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатые_племянники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатые_племянники">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_племянники_мама -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_племянники_мама">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродные_братья_и_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродные_братья_и_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дети">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дети_мои -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дети_мои">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама_и_папа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама_и_папа">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_дочь"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мать -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мать">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Не_кровные_родственники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Не_кровные_родственники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Отец -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Отец">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянники">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянники_мои -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянники_мои">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Профессия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Профессия"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Родители -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Родители">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_дочь"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_сына"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Родители_мужа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Родители_мужа">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_сына"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Родные_братья_и_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Родные_братья_и_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_дочь"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_сына"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_внуков -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_внуков">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-д"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-с"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-д"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-с"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_внучатых_племянников -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_внучатых_племянников">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпк"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спк"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпк"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спк"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_дв_баба_и_деда-мама_деда -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_дв_баба_и_деда-мама_деда">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_дв_племянников_мама -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_дв_племянников_мама">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стм"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_двоюродных_братьев_и_сестер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_двоюродных_братьев_и_сестер">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_племянников -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруги_племянников">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Роль"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя_и_дядя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя_и_дядя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Кровные_родственики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя_и_дядя_мамы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя_и_дядя_мамы">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя_и_дядя_папы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тетя_и_дядя_папы">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тр_братья_и_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тр_братья_и_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бдм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-ддм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бдм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-ддм"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Человек"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#дв_дядя_и_тетя_деда_мамы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#дв_дядя_и_тетя_деда_мамы">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#дв_племянники_папа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#дв_племянники_папа">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_маму"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Иметь_папу"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#супруги_дв_племянников_папа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#супруги_дв_племянников_папа">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_женой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдп"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Являться_мужем"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стп"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродные_дед_и_баба-мама,_деда -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродные_дед_и_баба-мама,_деда">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_братом"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Быть_сестрой"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Проверка"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+        <rdfs:comment>Бабушка персоны по линии матери, мать мамы персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п"/>
+        <rdfs:comment>Бабушка персоны по линии отца, мать отца персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_брата"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-д -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-д">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-д"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внука-д"/>
+        <rdfs:comment>Внук персоны по линии дочери, сын дочери персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-с"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внука-с"/>
+        <rdfs:comment>Внук персоны по линии сына, сын сына персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпк"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-б"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-бпк"/>
+        <rdfs:comment>Внучатая племянница персоны по линии брата, дочь племянника персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-б"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-бпц"/>
+        <rdfs:comment>Внучатая племянница персоны по линии брата, дочь племянницы персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спк"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-с"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-спк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-с"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-спц"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпк"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-б"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-бпк"/>
+        <rdfs:comment>Внучатый племянник персоны по линии брата, сын племянника персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-б"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-бпц"/>
+        <rdfs:comment>Внучатый племянник персоны по линии брата, сын племянницы персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спк"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-с"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-спк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-с"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-спц"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-д -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-д">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-д"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучки-д"/>
+        <rdfs:comment>Внучка персоны по линии дочери, дочь дочери персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-с"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучки-с"/>
+        <rdfs:comment>Внучка персноны по линии сына, дочь сына персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-дм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бмм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-бм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бмм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-ддм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-дм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-ддм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-дмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-дмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-дмм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-бм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-дмм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-дм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бмм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-бм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бмм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-ддм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-дм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-ддм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-дмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-дмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-дмм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-бм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-дмм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мд"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пд"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бдп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бтп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мд"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-сдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пд"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-сдп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мт"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-стм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пт"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-стп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-м"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-п"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-п"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-бм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-дм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пд"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бдп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бтп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бтп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мд"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-сдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-сдп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-стм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стп"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-стп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+        <rdfs:comment>Дедушка перосны по линии матери персоны, отец мамы персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п"/>
+        <rdfs:comment>Дедушка персоны по линии отца, отец папы персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-м"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_брата -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_брата">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <rdfs:comment>Невестка персоны, жена родного брата персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внука-д -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внука-д">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-д"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внука-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внука-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внук-с"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-бпк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-бпк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-бпц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-бпц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-спк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-спк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-спц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_внучатого_племянника-спц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-дмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-дмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бтп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-бтп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-сдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-сдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-сдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-сдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-стм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-стм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-стп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_племяннка-стп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-мт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-бдм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_брата-пт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-бм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-бм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-бм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-дм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_двоюродного_дедушки-дм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_дедушка-дм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-м -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-м">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мд"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-п -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дяди-п">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-пд"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бмд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бмт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-ддм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дмд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дмт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_д"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_д"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+        <rdfs:comment>Зять персоны, муж дочери персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <rdfs:comment>Мама персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <rdfs:comment>Муж персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-бпк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-бпк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-бпц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-бпц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-спк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-спк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-спц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучатой_племянницы-спц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучки-д -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучки-д">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-д"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучки-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_внучки-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучка-с"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бтп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-бтп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-сдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-сдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-сдп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-сдп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-стм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-стм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-стп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_племяннцы-стп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-дмм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-дмм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-бм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-бм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-бм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-дм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_бабушки-дм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_бабушка-дм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-стм"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-стм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-мт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_племянница-сдм"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_племянник-сдм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пд"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_двоюродной_сестры-пт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-пт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-ддм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-м -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-м">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-п -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тёти-п">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_с"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_с"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын"/>
+        <rdfs:comment>Невестка персоны, жена сына персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <rdfs:comment>Папа персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_брата"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <rdfs:comment>Племянник персоны, сын родного брата персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свояк"/>
+        <rdfs:comment>Племянник персоны, сын родной сестры персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_брата"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-б"/>
+        <rdfs:comment>Племянница песроны, дочь родного брата персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свояк"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц"/>
+        <rdfs:comment>Племянница песроны, дочь родной сестры персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_д -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_д">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_д"/>
+        <rdfs:comment>Сват по линии дочери персоны, отец мужа дочери персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_с"/>
+        <rdfs:comment>Сват по линии сына персоны, отец жены сына персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_д -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_д">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Зять"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_д"/>
+        <rdfs:comment>Сваться по линии дочери персоны, мать мужа дочери персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сватья_с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сват_с"/>
+        <rdfs:comment>Сваться по линии сына персоны, мать жены сына персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свекровь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свекровь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свёкор"/>
+        <rdfs:comment>Свекровь персоны, мать мужа персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свояк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свояк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра"/>
+        <rdfs:comment>Муж родной сестры персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свёкор -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свёкор">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свекровь"/>
+        <rdfs:comment>Свёкр песроны, отец мужа персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Свояк"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-б -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-б">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпц"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпц"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-б"/>
+        <rdfs:comment>Муж племянницы персоны,</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруг_племянницы-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спц"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спц"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянница-с"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-б -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-б">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-бпк"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-бпк"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-б"/>
+        <rdfs:comment>Жена племянника персоны</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-с -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Супруга_племянника-с">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатая_племянница-спк"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Внучатый_племянник-спк"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Племянник-с"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Персона"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Невестка"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бдм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бдм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бдм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бдм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-ддм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-ддм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-ддм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-ддм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-ддм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-ддм"/>
+        <Являться_женой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_тр_сестры-дтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бдм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бдм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бдм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-бдм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-бдм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бдм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-бтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-бтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-бдм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-бдм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-бтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-ддм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-ддм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-ддм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_дв_дяди-ддм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_дядя-ддм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-ддм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дмд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дмд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дмт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дмт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дтм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродный_брат-дтм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мужчина"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Троюродная_сестра-дтм"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дв_тётя-ддм"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Муж_дв_тети-ддм"/>
+        <Являться_мужем rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Жена_тр_брата-дтм"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-м">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-м"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Мама"/>
+        <Иметь_дочь rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродная_сестра-мт"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-м"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-м"/>
+        <Иметь_сына rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Двоюродный_брат-мт"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Тётя-п">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Женщина"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дядя-п"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Папа"/>
+        <Иметь_маму rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Бабушка-п"/>
+        <Иметь_папу rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дедушка-п"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Брат">
+        <rdfs:comment>Родной брат персоны</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Дочь">
+        <rdfs:comment>Дочь персоны</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сестра">
+        <rdfs:comment>Родная сестра персоны</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/2/untitled-ontology-12#Сын">
+        <rdfs:comment>Сын персоны</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

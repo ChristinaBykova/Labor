@@ -1,0 +1,2843 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#В_браке_с -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#В_браке_с">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Жена -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Жена">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#В_браке_с"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_пол -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_пол">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пол"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Муж -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Муж">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#В_браке_с"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_Фамилию -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_Фамилию">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_имя -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_имя">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_отчество -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_отчество">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Бабушки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Бабушки">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Бабушки_Дедушки_Персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Бабушки_Дедушки_Персоны">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Братья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Братья">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Сестры_братья"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Братья_сестры_дедов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Братья_сестры_дедов">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внук -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внук">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внук"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внучка"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки_персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки_персоны">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники_персоны"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внучка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внучка">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Водитель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Водитель">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Водитель"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Военный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Военный">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Военный"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Распределение  персон по возрастной категории</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Все_мы_дети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Все_мы_дети">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Все персоны</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Все_племянники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Все_племянники">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянницы"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Второе_поколение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Второе_поколение">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+        <rdfs:comment>Родители</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Главный_оператор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Главный_оператор">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Главный_оператор"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюр_братья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюр_братья">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Дяди_тёти"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_братья_сестры"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюр_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюр_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Дяди_тёти"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_братья_сестры"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Дяди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Дяди">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти_Дяди"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти_Дяди"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти_Дяди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти_Дяди">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Дяди"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_Тёти"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_братья_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюродные_братья_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюр_братья"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Двоюр_сестры"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дедушки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дедушки">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Бабушки"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дедушки"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дочь"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сын"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети_персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети_персоны">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дочь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дочь">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дошкольник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дошкольник">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дошкольник"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дядя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дядя">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мама"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Папа"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Дяди_тёти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_пол"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+        <rdfs:comment>Все женщины </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Жёны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Жёны">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#В_браке_с"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Супруги"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первое_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первое_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Второе_поколение"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Второе_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третье_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третье_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвёртое_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвёртое_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятое_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятое_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_род -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_род">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Братья_сестры_дедов"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Внуки_персоны"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети_персоны"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники_персоны"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сеcтры_братья_персоны"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Тети_дяди_персоны"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>За исключением Родителей и Дедов</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Все кровные родственники персоны третьего поколения Родиковой Яны Сергеевны</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мама -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мама">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Математик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Математик">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Математик"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_пол"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Все мужчины</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужья">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#В_браке_с"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Супруги"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первое_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первое_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Второе_поколение"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Второе_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третье_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третье_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвёртое_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвёртое_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятое_поколение"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятое_поколение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_женщины -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_женщины">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Муж"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_род"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужчина"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_мужчины -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_мужчины">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Жена"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женщина"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_род"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Некровные_родственники">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Супруги кровных родственников</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Официант -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Официант">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Официант"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Папа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Папа">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первое_поколение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первое_поколение">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+        <rdfs:comment>Деды</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Сестры_братья"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Все_племянники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники_персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянники_персоны">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сеcтры_братья_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сеcтры_братья_персоны"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянницы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Племянницы">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Сестры_братья"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Все_племянники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Распределение родственников по поколениям</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пол -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пол"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Программист -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Программист">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Программист"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Прожилой -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Прожилой">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Распределение родственников по профессиям</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятое_поколение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятое_поколение">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятым_пок"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+        <rdfs:comment>Мои внуки</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мама"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Папа"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Дяди_тёти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Дяди_тёти">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дядя"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Тёти"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Сестры_братья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Сестры_братья">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Братья"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сестры"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <rdfs:comment>Какими ролями обладают персоны</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сеcтры_братья_персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сеcтры_братья_персоны">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сестры">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Сестры_братья"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Строитель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Строитель">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Строитель"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Судья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Судья">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Судья"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Супруги -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Супруги">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Жёны"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужья"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сын -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Сын">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дети"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Тети_дяди_персоны -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Тети_дяди_персоны">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родители_персоны"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_бабушки_дедушки"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кровные_родственники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третье_поколение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третье_поколение">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третьем_пок"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+        <rdfs:comment>Я и мои сестры\братья</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюр_Сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюр_Сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродной_сестрой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюродные_братья_сестры"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюр_братья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюр_братья">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродной_сестрой"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_мамой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_двоюродным_братом"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_папой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_дочерью"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_братом"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сыном"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Деды"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_троюродным_братом"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюродные_братья_сестры"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюродные_братья_сестры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюродные_братья_сестры">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюр_Сестры"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Троюр_братья"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Роли"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Тёти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Тёти">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мама"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Быть_сестрой"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Папа"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Родные_Дяди_тёти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Учитель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Учитель">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Учитель"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвёртое_поколение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвёртое_поколение">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Является_поколением"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+        <rdfs:comment>Дети</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_возраст"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Экономист -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Экономист">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Экономист"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Электрик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Электрик">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Электрик"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Юрист -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Юрист">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Иметь_профессию"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Юрист"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии_персон"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Водитель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Водитель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Военный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Военный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Анатолий_Викторович -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Анатолий_Викторович">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Виктор_Анатольевич"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Анна_Михайловна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Володин</Иметь_Фамилию>
+        <Иметь_имя>Анатолий</Иметь_имя>
+        <Иметь_отчество>Викторович</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Артем_Максимович -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Артем_Максимович">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_братом rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Софья_Максимовна"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Юлия_Артемовна"/>
+        <Быть_сыном rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Максим_Викторович"/>
+        <Быть_сыном rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Павлова_Светлана_Андреевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок"/>
+        <Иметь_Фамилию>Володин</Иметь_Фамилию>
+        <Иметь_имя>Артем</Иметь_имя>
+        <Иметь_отчество>Максимович</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Виктор_Анатольевич -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Виктор_Анатольевич">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Максим_Викторович"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Марина_Анатольевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок"/>
+        <Иметь_Фамилию>Володин</Иметь_Фамилию>
+        <Иметь_имя>Виктор</Иметь_имя>
+        <Иметь_отчество>Анатольевич</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Максим_Викторович -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Максим_Викторович">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Экономист"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третьем_пок"/>
+        <Иметь_Фамилию>Володин</Иметь_Фамилию>
+        <Иметь_имя>Максим</Иметь_имя>
+        <Иметь_отчество>Викторович</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Анна_Михайловна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Анна_Михайловна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Виктор_Анатольевич"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Анатолий_Викторович"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Володина</Иметь_Фамилию>
+        <Иметь_имя>Анна</Иметь_имя>
+        <Иметь_отчество>Михайловна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Марина_Анатольевна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Марина_Анатольевна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Максим_Викторович"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Виктор_Анатольевич"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок"/>
+        <Иметь_Фамилию>Володина</Иметь_Фамилию>
+        <Иметь_имя>Марина</Иметь_имя>
+        <Иметь_отчество>Анатольевна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Софья_Максимовна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Софья_Максимовна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_дочерью rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Максим_Викторович"/>
+        <Быть_дочерью rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна"/>
+        <Быть_сестрой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Артем_Максимович"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Юрист"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Алексей_Георгиевич"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок"/>
+        <Иметь_Фамилию>Володина</Иметь_Фамилию>
+        <Иметь_имя>Софья</Иметь_имя>
+        <Иметь_отчество>Максимовна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Юлия_Артемовна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Юлия_Артемовна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_двоюродной_сестрой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Олег_Алексеевич"/>
+        <Быть_дочерью rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Артем_Максимович"/>
+        <Быть_дочерью rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Павлова_Светлана_Андреевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятым_пок"/>
+        <Иметь_Фамилию>Володина</Иметь_Фамилию>
+        <Иметь_имя>Юлия</Иметь_имя>
+        <Иметь_отчество>Артемовна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Гавричев_Антон_Антонович -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Гавричев_Антон_Антонович">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Марина_Анатольевна"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Гавричева_Яна_Георгиевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Библиотекарь"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Гавричев</Иметь_Фамилию>
+        <Иметь_имя>Антон</Иметь_имя>
+        <Иметь_отчество>Антонович</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Гавричева_Яна_Георгиевна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Гавричева_Яна_Георгиевна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Марина_Анатольевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Врач"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Гавричев_Антон_Антонович"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Гавричева</Иметь_Фамилию>
+        <Иметь_имя>Яна</Иметь_имя>
+        <Иметь_отчество>Георгиевна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Главный_оператор -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Главный_оператор">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дошкольник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Дошкольник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пол"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Лютаев_Артемий_Вячеславович -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Лютаев_Артемий_Вячеславович">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Надежда_Артемьевна"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Лютаева_Таисья_Ивановна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_имя>Артемий</Иметь_имя>
+        <Иметь_отчество>Вячеславович</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Лютаева_Таисья_Ивановна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Лютаева_Таисья_Ивановна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Надежда_Артемьевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Лютаев_Артемий_Вячеславович"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Лютаева</Иметь_Фамилию>
+        <Иметь_имя>Таисья</Иметь_имя>
+        <Иметь_отчество>Ивановна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Математик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Математик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пол"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Официант -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Официант">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Павлова_Светлана_Андреевна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Павлова_Светлана_Андреевна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Юлия_Артемовна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Кондитер"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володин_Артем_Максимович"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок"/>
+        <Иметь_Фамилию>Павлова</Иметь_Фамилию>
+        <Иметь_имя>Светлана</Иметь_имя>
+        <Иметь_отчество>Андреевна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Программист -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Программист">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Продавец">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятым_пок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятым_пок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Строитель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Строитель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Судья -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Судья">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третьем_пок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третьем_пок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Учитель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Учитель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Николаевич -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Николаевич">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна"/>
+        <Быть_сыном rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Зосья_Павловна"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Надежда_Артемьевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Программист"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок"/>
+        <Иметь_Фамилию>Федоров</Иметь_Фамилию>
+        <Иметь_имя>Николай</Иметь_имя>
+        <Иметь_отчество>Николаевич</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Сергеевич -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Сергеевич">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_папой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Николаевич"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Зосья_Павловна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Строитель"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Федоров</Иметь_Фамилию>
+        <Иметь_имя>Николай</Иметь_имя>
+        <Иметь_отчество>Сергеевич</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_дочерью rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Николаевич"/>
+        <Быть_дочерью rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Надежда_Артемьевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Математик"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Третьем_пок"/>
+        <Иметь_Фамилию>Федорова
+</Иметь_Фамилию>
+        <Иметь_имя>Евгения</Иметь_имя>
+        <Иметь_отчество>Николаевна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Зосья_Павловна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Зосья_Павловна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Николаевич"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пожилой"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Учитель"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Сергеевич"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Первым_пок"/>
+        <Иметь_Фамилию>Федорова</Иметь_Фамилию>
+        <Иметь_имя>Зосья</Иметь_имя>
+        <Иметь_отчество>Павловна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Надежда_Артемьевна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Надежда_Артемьевна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_мамой rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федорова_Евгения_Николаевна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Средний_возраст"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Женский"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Главный_оператор"/>
+        <Муж rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Федоров_Николай_Николаевич"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Вторым_пок"/>
+        <Иметь_Фамилию>Федорова</Иметь_Фамилию>
+        <Иметь_имя>Надежда</Иметь_имя>
+        <Иметь_отчество>Артемьевна</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Поколения"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Алексей_Георгиевич -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Алексей_Георгиевич">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Жена rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Софья_Максимовна"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Молодёжь"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Иметь_профессию rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Менеджер"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Четвертым_пок"/>
+        <Иметь_Фамилию>Шиков</Иметь_Фамилию>
+        <Иметь_имя>Алексей</Иметь_имя>
+        <Иметь_отчество>Георгиевич</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Олег_Алексеевич -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Олег_Алексеевич">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Персона"/>
+        <Быть_двоюродным_братом rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Юлия_Артемовна"/>
+        <Быть_сыном rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Володина_Софья_Максимовна"/>
+        <Быть_сыном rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Шиков_Алексей_Георгиевич"/>
+        <Иметь_возраст rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник"/>
+        <Иметь_пол rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Мужской"/>
+        <Является_поколением rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Пятым_пок"/>
+        <Иметь_Фамилию>Шиков</Иметь_Фамилию>
+        <Иметь_имя>Олег</Иметь_имя>
+        <Иметь_отчество>Алексеевич</Иметь_отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Школьник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Возрастная_категория_персон"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Экономист -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Экономист">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Электрик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Электрик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Юрист -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Юрист">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rjs431/ontologies/2017/2/untitled-ontology-6#Профессии"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

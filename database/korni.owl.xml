@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корень_уравнения -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корень_уравнения">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Вещественные -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Вещественные">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Дробные -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Дробные">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Комплексные -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Комплексные">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Целые -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Целые">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Вещественные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Вещественные">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Вещественные"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Дробные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Дробные">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Дробные"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Комплексные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Комплексные">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Комплексные"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Целые -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Целые">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Целые"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>х=1/2+i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#1-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#1-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#1"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#2"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#3"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#4"/>
+        <rdfs:comment>4*x^4+1=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=-1-i*sqrt(2)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#10-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#10-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#36"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#37"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#38"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#39"/>
+        <rdfs:comment>(2*x-1)^4-25*(2*x-1)^2+144=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=-2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=-2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=-1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Дробные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Дробные>
+        <rdfs:comment>x=1/2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Дробные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Дробные>
+        <rdfs:comment>x=-1/2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>х=1/2-i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#2-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#2-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#5"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#6"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#7"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#8"/>
+        <rdfs:comment>16*x^4+145*x^2+9=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=-1.04</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=0.11+i*0.97</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=0.11-i*0.97</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=1.62</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=-0.85</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=-0.14</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=0.4-i*0.7</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=0.4+i*0.7</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=-5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>х=-1/2+i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#3-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#3-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#10"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#11"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#12"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#9"/>
+        <rdfs:comment>x^4+3*x^3+3*x^2-x-6=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=3</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=4</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=-4.8</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=-0.2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=0.25+i*0.96</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=0.25-i*0.96</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#36">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=-1.5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=-1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#38 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#38">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Целые rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></Целые>
+        <rdfs:comment>x=2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Вещественные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Вещественные>
+        <rdfs:comment>x=2.5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>х=-1/2-i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#4-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#4-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#13"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#14"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#15"/>
+        <rdfs:comment>-4*x^4+16*x^2=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=1/4*i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#5-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#5-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#16"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#17"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#18"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#19"/>
+        <rdfs:comment>4*x^4-5*x^2+1=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=-1/4*i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#6-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#6-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#20"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#21"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#22"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#23"/>
+        <rdfs:comment>-5*x^4+4*x^3+3*x^2+x+8=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=3*i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#7-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#7-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#24"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#25"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#26"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#27"/>
+        <rdfs:comment>125*x^4+25*x^3-5*x^2+65*x+9=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=-3*i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#8-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#8-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#28"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#29"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#30"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#31"/>
+        <rdfs:comment>x^4-4*x^3-19*x^2+106*x-120=0</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Корни"/>
+        <Комплексные rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"></Комплексные>
+        <rdfs:comment>x=-1+i*sqrt(2)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#9-е_уравнение -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#9-е_уравнение">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#Уравнение"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#32"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#33"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#34"/>
+        <Корень_уравнения rdf:resource="http://www.semanticweb.org/bka433/ontologies/2017/4/untitled-ontology-14#35"/>
+        <rdfs:comment>2*x^4+9*x^3-x^2+9*x+2=0</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

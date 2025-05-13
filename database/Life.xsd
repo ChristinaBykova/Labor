@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:altova="http://www.altova.com/xml-schema-extensions" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Человек">
+		<xs:annotation>
+			<xs:documentation>Для описания человека полностью используется данный элемент</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="БазоваяИнформация"/>
+				<xs:group ref="Родственники"/>
+				<xs:group ref="Образование"/>
+				<xs:group ref="Работа"/>
+				<xs:element ref="Достижения" minOccurs="0"/>
+				<xs:element ref="Прочее"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ФИО">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ИнформацияОСменеИмени" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="ФИОА"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ИнформацияОСменеИмени">
+		<xs:annotation>
+			<xs:documentation>Аттрибут СтароеИмя необходим для установления последовательности смены имени</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="ДатаСмены" type="xs:date" use="required"/>
+			<xs:attribute name="НовоеИмя" type="xs:string" use="required"/>
+			<xs:attribute name="СтароеИмя" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attribute name="Пол" type="xs:string">
+		<xs:annotation>
+			<xs:appinfo>
+				<altova:exampleValues>
+					<altova:example value="М"/>
+					<altova:example value="Ж"/>
+				</altova:exampleValues>
+			</xs:appinfo>
+			<xs:documentation>Смену пола не предусматриваю, т.к. категорически против</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:attributeGroup name="МестоРождения">
+		<xs:attribute name="СтранаРождения" type="xs:string" use="required"/>
+		<xs:attribute name="ГородРождения" type="xs:string" use="required"/>
+	</xs:attributeGroup>
+	<xs:attribute name="ДатаРождения" type="xs:date"/>
+	<xs:element name="Родился">
+		<xs:annotation>
+			<xs:documentation>Сборник информации о рождении</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attributeGroup ref="МестоРождения"/>
+			<xs:attribute ref="ДатаРождения" use="required"/>
+			<xs:attribute ref="Пол" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Фото">
+		<xs:complexType>
+			<xs:attribute name="Фото" type="xs:anyURI" use="required"/>
+			<xs:attribute name="Год" type="xs:anyURI" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="АдресПроживания">
+		<xs:annotation>
+			<xs:documentation>Некоторые поля опциональные ввиду склонности памяти человека к забыванию</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="Страна" type="xs:string" use="required"/>
+			<xs:attribute name="ОбластьШтат" type="xs:string" use="required"/>
+			<xs:attribute name="Город" type="xs:string" use="required"/>
+			<xs:attribute name="ДатаВписки" type="xs:date" use="required"/>
+			<xs:attribute name="ДатаВыписки" type="xs:date" use="optional"/>
+			<xs:attribute name="Улица" type="xs:string" use="optional"/>
+			<xs:attribute name="Дом" type="xs:integer" use="optional"/>
+			<xs:attribute name="Квартира" type="xs:integer" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="БазоваяИнформация">
+		<xs:annotation>
+			<xs:documentation>БазоваяИнформация, которую можно применять к любому лицу, использоумому не в качестве основоного рассматиривамого(пример: дети, жена)</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ФИО"/>
+				<xs:element ref="Родился"/>
+				<xs:element ref="АдресПроживания" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="Фото" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ДетскиеСады">
+		<xs:annotation>
+			<xs:documentation>Список всех деских садов, в которых когда-либо обучался ребёнок</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Садик" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Садик">
+		<xs:annotation>
+			<xs:documentation>Необходимые поля для садика. Создано отдельно для возможности многократного ввода</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attributeGroup ref="ИнтервалДатыГод"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="СреднееОбразование">
+		<xs:annotation>
+			<xs:documentation>Информация по среднему образования описываемого хумана</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Школа" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="УчебноеЗаведение" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Школа">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Аттестат" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attributeGroup ref="ИнтервалДатыГод"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="УчебноеЗаведение">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Диплом" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attributeGroup ref="ИнтервалДатыГод"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Аттестат">
+		<xs:complexType>
+			<xs:attributeGroup ref="ЯдроДокумента"/>
+			<xs:attribute name="МестоВыдачи" type="xs:string" use="required"/>
+			<xs:attribute ref="Номер" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Диплом">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ПредметОценка" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="ЯдроДокумента"/>
+			<xs:attribute name="Специальность" type="xs:string" use="required"/>
+			<xs:attribute ref="Номер" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ПредметОценка">
+		<xs:annotation>
+			<xs:documentation>Название предмета и оценка по нему</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="Предмет" type="xs:string" use="required"/>
+			<xs:attribute name="Оценка" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:appinfo>
+						<altova:exampleValues>
+							<altova:example value="3"/>
+							<altova:example value="4"/>
+							<altova:example value="5"/>
+						</altova:exampleValues>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ВысшееОбразование">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="УчебноеЗаведение" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ДопОбразование">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="УчебноеЗаведение"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Преступность">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Преступление" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Преступление">
+		<xs:complexType>
+			<xs:attribute name="ДатаПостановкиНаУчётВПолиции" type="xs:date" use="required"/>
+			<xs:attribute name="ДатаСанятияСУчёта" type="xs:date" use="optional"/>
+			<xs:attribute name="ДатаСовершенияПреступления" type="xs:date" use="required"/>
+			<xs:attribute name="Преступление" type="xs:string" use="required"/>
+			<xs:attribute name="Наказание" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ТрудоваяКнижка">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Запись" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute ref="Номер" use="required"/>
+			<xs:attributeGroup ref="ФИОА"/>
+			<xs:attribute ref="ДатаРождения" use="required"/>
+			<xs:attribute name="Образование" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:appinfo>
+						<altova:exampleValues>
+							<altova:example value="Нет"/>
+							<altova:example value="Высшее"/>
+							<altova:example value="Среднее"/>
+						</altova:exampleValues>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Профессия" type="xs:string" use="required"/>
+			<xs:attribute name="ДатаЗаполнения" type="xs:date" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Запись">
+		<xs:complexType>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attribute name="ДатаЗаписи" type="xs:date" use="required"/>
+			<xs:attribute name="Сведения" type="xs:string" use="required"/>
+			<xs:attribute name="НаОснованииЧего" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:group name="Родители">
+		<xs:sequence>
+			<xs:element ref="Мама"/>
+			<xs:element ref="Папа"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:element name="Мама">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="БазоваяИнформация"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Папа">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="БазоваяИнформация"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Ребёнок">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="БазоваяИнформация"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Достижения">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Достижение" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Достижение">
+		<xs:complexType>
+			<xs:attributeGroup ref="ЯдроДокумента"/>
+			<xs:attribute name="Масштаб" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:appinfo>
+						<altova:exampleValues>
+							<altova:example value="Регион"/>
+							<altova:example value="Район"/>
+							<altova:example value="Область"/>
+							<altova:example value="Страна"/>
+							<altova:example value="Международный"/>
+						</altova:exampleValues>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Тип" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:appinfo>
+						<altova:exampleValues>
+							<altova:example value="Спортивное"/>
+							<altova:example value="Творческое"/>
+							<altova:example value="Другое"/>
+						</altova:exampleValues>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="МестоПолучения" type="xs:string" use="optional"/>
+			<xs:attribute name="Название" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="УчреждениеДопОбразования">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Аттестат" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="Название" type="xs:string" use="required"/>
+			<xs:attribute name="НазваниеКурса" type="xs:string" use="required"/>
+			<xs:attribute name="СГода" type="xs:gYear" use="required"/>
+			<xs:attribute name="ДоГода" type="xs:gYear" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:group name="Образование">
+		<xs:sequence>
+			<xs:element ref="ДетскиеСады" minOccurs="0"/>
+			<xs:element ref="СреднееОбразование" minOccurs="0"/>
+			<xs:element ref="ВысшееОбразование" minOccurs="0"/>
+			<xs:element ref="ДопОбразование" minOccurs="0"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:attributeGroup name="ЯдроДокумента">
+		<xs:attribute name="КомуВыдан" type="xs:string" use="required"/>
+		<xs:attribute name="КемВыдан" type="xs:string" use="required"/>
+		<xs:attribute name="КогдаВыдан" type="xs:date" use="required"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="ИнтервалДатыГод">
+		<xs:attribute name="С" type="xs:gYear" use="required"/>
+		<xs:attribute name="До" type="xs:gYear" use="optional"/>
+	</xs:attributeGroup>
+	<xs:group name="ПрофНавыки">
+		<xs:sequence>
+			<xs:element ref="ЯзыкиПрограммирования" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="СредаРазработки" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="Портфолио" minOccurs="0"/>
+			<xs:element ref="Умения"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:element name="ЯзыкиПрограммирования">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ЯзыкПрограммирования" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ДляПортфолио">
+		<xs:complexType>
+			<xs:attribute name="НазваниеРаботы" type="xs:string" use="required"/>
+			<xs:attribute name="СсылкаНаРаботу" type="xs:anyURI" use="optional"/>
+			<xs:attribute name="ГдеРазработкаВнедрена" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Портфолио">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ДляПортфолио" maxOccurs="unbounded"/>
+				<xs:element ref="НаучноеОткрытие" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:group name="Родственники">
+		<xs:sequence>
+			<xs:group ref="Родители"/>
+			<xs:element ref="Ребёнок" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:element name="СредаРазработки">
+		<xs:complexType>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attribute name="Версия" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Умения">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ЗнанияАнализов" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="Анализ" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="СпециалистВОбластяхМатематики" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Область">
+								<xs:complexType>
+									<xs:attribute ref="Название" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="ЛадитьСКомандой" type="xs:boolean" use="required"/>
+			<xs:attribute name="БыстроИзучатьНовое" type="xs:boolean" use="required"/>
+			<xs:attribute name="БыстроОсваиватьНовыеЯзыки" type="xs:boolean" use="required"/>
+			<xs:attribute name="СтрелмениеКСамосовершенствованию" type="xs:boolean" use="required"/>
+			<xs:attribute name="МоделироватьПоставленныеЗадачиЯзыкамиМатематики" type="xs:boolean" use="required"/>
+			<xs:attribute name="МоделироватьПоставленныеЗадачиНаКомпьютере" type="xs:boolean" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:group name="Работа">
+		<xs:sequence>
+			<xs:element ref="ТрудоваяКнижка" minOccurs="0"/>
+			<xs:group ref="ПрофНавыки"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:element name="ЯзыкПрограммирования">
+		<xs:complexType>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attribute name="ОпытРаботы"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="НаучноеОткрытие">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ИсключительноеПравоПринадлежит">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Собственник" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attributeGroup ref="ФИОА"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Авторы">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Автор" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attributeGroup ref="ФИОА"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attributeGroup ref="ЯдроДокумента"/>
+			<xs:attribute name="Тип" type="xs:string" use="required"/>
+			<xs:attribute ref="Название" use="required"/>
+			<xs:attribute name="МестоИДатаСоздания" type="xs:string" use="required"/>
+			<xs:attribute name="Основание" type="xs:date" use="required"/>
+			<xs:attribute ref="Номер" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attributeGroup name="ФИОА">
+		<xs:attribute name="Фамилия" type="xs:string" use="required"/>
+		<xs:attribute name="Имя" type="xs:string" use="required"/>
+		<xs:attribute name="Отчество" type="xs:string" use="optional"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="СрокДействия">
+		<xs:attribute name="Месяц" type="xs:gMonth" use="required"/>
+		<xs:attribute name="Год" type="xs:gYear" use="required"/>
+	</xs:attributeGroup>
+	<xs:element name="Анализ">
+		<xs:complexType>
+			<xs:attribute ref="Название" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attribute name="Название" type="xs:string"/>
+	<xs:element name="Прочее">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="МедПолис"/>
+				<xs:element ref="СтраховоеПенсионное" minOccurs="0"/>
+				<xs:element ref="ИНН" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="МедПолис">
+		<xs:complexType>
+			<xs:attributeGroup ref="ФИОА"/>
+			<xs:attribute name="ТелефонТФОМС" type="xs:string" use="required"/>
+			<xs:attributeGroup ref="СрокДействия"/>
+			<xs:attribute ref="Номер" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attribute name="Номер" type="xs:string"/>
+	<xs:element name="СтраховоеПенсионное">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Родился"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="ФИОА"/>
+			<xs:attribute ref="Номер" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ИНН">
+		<xs:complexType>
+			<xs:attributeGroup ref="ЯдроДокумента"/>
+			<xs:attribute ref="ДатаРождения" use="required"/>
+			<xs:attribute name="МестоРождения" type="xs:string" use="required"/>
+			<xs:attribute name="НаименованиеНалоговогоОргана" type="xs:string" use="required"/>
+			<xs:attribute name="ИНН" type="xs:integer" use="required"/>
+			<xs:attribute name="Серия" type="xs:integer" use="required"/>
+			<xs:attribute ref="Номер" use="required"/>
+		</xs:complexType>
+	</xs:element>
+<!--- Made By DaGuT aka AlexMongolin -->
+</xs:schema>

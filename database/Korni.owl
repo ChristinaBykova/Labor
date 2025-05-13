@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-3 "http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#сопряжен_с -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-3;сопряжен_с">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&untitled-ontology-3;корни"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#знак_вещественной_части -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-3;знак_вещественной_части">
+        <rdfs:comment>0 - минус
+1 - плюс</rdfs:comment>
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#знак_мнимой_части -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-3;знак_мнимой_части">
+        <rdfs:comment>0 - минус
+1 - плюс</rdfs:comment>
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#значение_дробной_вещественной_части -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-3;значение_дробной_вещественной_части">
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#значение_дробной_мнимой_части -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-3;значение_дробной_мнимой_части">
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#значение_целой_вещественной_части -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-3;значение_целой_вещественной_части">
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#значение_целой_мнимой_части -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-3;значение_целой_мнимой_части">
+        <rdfs:domain rdf:resource="&untitled-ontology-3;корни"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#вещественные_корни -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;вещественные_корни">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-3;значение_целой_мнимой_части"/>
+                <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>список всех вещественных корней</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#комплексные_корни -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;комплексные_корни">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_целой_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>список всех комплексных корней</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#корни -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;корни">
+        <rdfs:comment>Перечень корней</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#корни_с_отрицательной_мнимой_частью -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;корни_с_отрицательной_мнимой_частью">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_дробной_мнимой_части"/>
+                                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_целой_мнимой_части"/>
+                                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;сопряжен_с"/>
+                        <owl:someValuesFrom rdf:resource="&untitled-ontology-3;корни"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;знак_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;сопряженные"/>
+        <rdfs:comment>список всех сопряженных корней с отрицательной мнимой частью</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#корни_с_положительной_мнимой_частью -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;корни_с_положительной_мнимой_частью">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_дробной_мнимой_части"/>
+                                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_целой_мнимой_части"/>
+                                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;сопряжен_с"/>
+                        <owl:someValuesFrom rdf:resource="&untitled-ontology-3;корни"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;знак_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;сопряженные"/>
+        <rdfs:comment>список всех сопряженных корней с положительной мнимой частью</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#отрицательные -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;отрицательные">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;знак_вещественной_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_дробной_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_целой_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;вещественные_корни"/>
+        <rdfs:comment>список всех отрицательных вещественных корней</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#положительные -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;положительные">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;знак_вещественной_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_дробной_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-3;значение_целой_мнимой_части"/>
+                        <owl:hasValue rdf:datatype="&xsd;integer">0</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;вещественные_корни"/>
+        <rdfs:comment>список всех положительных вещественных корней</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#сопряженные -->
+
+    <owl:Class rdf:about="&untitled-ontology-3;сопряженные">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-3;сопряжен_с"/>
+                <owl:someValuesFrom rdf:resource="&untitled-ontology-3;корни"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;комплексные_корни"/>
+        <rdfs:comment>список всех сопряженных корней</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#1_корень -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-3;1_корень">
+        <rdf:type rdf:resource="&untitled-ontology-3;корни"/>
+        <значение_целой_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">1</значение_целой_вещественной_части>
+        <значение_дробной_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">13
+</значение_дробной_вещественной_части>
+        <значение_целой_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">2</значение_целой_мнимой_части>
+        <значение_дробной_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">58</значение_дробной_мнимой_части>
+        <знак_мнимой_части rdf:datatype="&xsd;boolean">true</знак_мнимой_части>
+        <знак_вещественной_части rdf:datatype="&xsd;boolean">true</знак_вещественной_части>
+        <rdfs:comment>x1 = 1.13+2.58i</rdfs:comment>
+        <сопряжен_с rdf:resource="&untitled-ontology-3;2_корень"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#2_корень -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-3;2_корень">
+        <rdf:type rdf:resource="&untitled-ontology-3;корни"/>
+        <значение_целой_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">1</значение_целой_вещественной_части>
+        <значение_дробной_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">13</значение_дробной_вещественной_части>
+        <значение_целой_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">2</значение_целой_мнимой_части>
+        <значение_дробной_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">58
+</значение_дробной_мнимой_части>
+        <знак_мнимой_части rdf:datatype="&xsd;boolean">false</знак_мнимой_части>
+        <знак_вещественной_части rdf:datatype="&xsd;boolean">true</знак_вещественной_части>
+        <rdfs:comment>x2 = 1.13-2.58i</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#3_корень -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-3;3_корень">
+        <rdf:type rdf:resource="&untitled-ontology-3;корни"/>
+        <значение_целой_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">0</значение_целой_мнимой_части>
+        <значение_дробной_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">0</значение_дробной_мнимой_части>
+        <значение_дробной_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">15</значение_дробной_вещественной_части>
+        <значение_целой_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">5</значение_целой_вещественной_части>
+        <знак_вещественной_части rdf:datatype="&xsd;boolean">false</знак_вещественной_части>
+        <rdfs:comment>x3 = -5.15</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/днс/ontologies/2017/4/untitled-ontology-3#4_корень -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-3;4_корень">
+        <rdf:type rdf:resource="&untitled-ontology-3;корни"/>
+        <значение_дробной_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">0</значение_дробной_мнимой_части>
+        <значение_целой_мнимой_части rdf:datatype="&xsd;nonNegativeInteger">0</значение_целой_мнимой_части>
+        <значение_целой_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">3</значение_целой_вещественной_части>
+        <значение_дробной_вещественной_части rdf:datatype="&xsd;nonNegativeInteger">9</значение_дробной_вещественной_части>
+        <знак_вещественной_части rdf:datatype="&xsd;boolean">true</знак_вещественной_части>
+        <rdfs:comment>x4 = 3.9</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
