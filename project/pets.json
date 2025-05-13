@@ -1,0 +1,12 @@
+{
+  "name": "Barsik",
+  "age": 12,
+  "meals": [
+    "Purina",
+    "Hills"
+  ],
+  "owner": {
+    "fname": "Julia",
+    "sname": "Gates"
+  }
+}
